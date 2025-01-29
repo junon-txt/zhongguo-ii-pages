@@ -3,12 +3,13 @@
 
 # <center>Log-in</center>
 
-<code>
-<span style="color: #d17b9e">Rob</span>: para hacer amigos se ingresa el comando '/friend+username'
-<span style="color: #d17b9e">Rob</span>: también se puede hacer click en un botón lindo y con colores
-<span style="color: #d17b9e">Rob</span>: en la parte inferior derecha de la pantalla
-<span style="color: #d17b9e">Rob</span>: la opción que más te gustela opción que más te guste
-</code>
+<code><span style="color: #d17b9e">Rob</span>: para hacer amigos se ingresa el comando '/friend+username'</code>
+
+<code><span style="color: #d17b9e">Rob</span>: también se puede hacer click en un botón lindo y con colores</code>
+
+<code><span style="color: #d17b9e">Rob</span>: en la parte inferior derecha de la pantalla</code>
+
+<code><span style="color: #d17b9e">Rob</span>: la opción que más te gustela opción que más te guste</code>
 
 O algo así le escribí a Won Lei, el día que lo conocí, pero en ese momento sonó justo ese ringtone insoportable. 
 
@@ -18,10 +19,9 @@ Siempre que es importante vuelven a llamar.
 
 Volví a mi silla. Won Lei no había contestado, esperaba inmóvil en el exacto lugar en el que había estado antes de la llamada. 
 
-<code>
-<span style="color: #d17b9e">Rob</span>: tenés alguna duda?
-Won_Lei: no
-</code>
+<code><span style="color: #d17b9e">Rob</span>: tenés alguna duda?</code>
+
+<code>Won_Lei: no</code>
 
 Parecía recién llegado al mundo, pero no a la manera de un recién nacido. Porque aunque Won Lei contara con un complejo manejo del lenguaje, no alcanzaba a formular aún siquiera una de todas las preguntas posibles acerca del mundo de Zhōngguó II. 
 
@@ -35,9 +35,7 @@ A todo esto respondió únicamente que miedo de morir no tenía y que me acompa�
 
 En todo el camino nos cruzamos con apenas dos osos pardos. Algo bastante raro, dado que por esas regiones, salvo por los jugadores, no tienen depredador alguno. Del primero me encargué yo. Esquivé la primera embestida con facilidad. Hacía mucho que no me enfrentaba a uno, pero fue fácil recordar cómo vencerlos. Me quedé esperando que se abalanzara de nuevo sobre mí. F2, F4. Cayó sin resistencia. Alt+Click para juntar el botín: seis huesos y un par de pieles de oso. Nada mal. En ese momento éramos más bien pocos los capaces de exterminar un oso pardo de un solo golpe, pero Won Lei no se asombró. No lo culpé, yo tampoco hubiera sido capaz de comprender algo así ni bien había empezado a jugar unos meses atrás.
 
-```
-Won_Lei: mío
-```
+<code>Won_Lei: mío</code>
 
 Irónicamente, yo sí me sorprendí al verlo encargarse del segundo. La ventana que los osos pardos permiten para el contraataque es bastante predecible, pero el tiempo que dejan a la reacción es ínfimo. Teniendo tan bajo nivel tuvo que esquivar y contraatacar unas once veces, pero todas y cada una de ellas fue ejecutada con destreza. Las zarpas del oso lo alcanzaron una sola vez y ahora puedo llegar a suponer que fue a propósito. En aquel momento, lejos de toda sospecha, quedé estupefacto a causa del baile que libraron el oso y Won Lei.
 
