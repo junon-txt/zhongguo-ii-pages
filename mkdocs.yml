@@ -1,10 +1,10 @@
-site_name: ZhōngGuó II
+site_name: ""
 
-docs_dir: github-pages
+docs_dir: pages
 
 nav:
   - Índice: index.md
-  - Capítulo I: 01.md
+  - I.md
 
 theme:
   name: material

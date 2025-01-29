@@ -1,16 +1,26 @@
 <!-- enable-zii-chat -->
 
-# Log-in
+# <center>Log-in</center>
 
-Para hacer amigos se ingresa el comando `/friend+username`. Se puede, también, hacer click en un botón todo lindo y con colores en la parte inferior derecha de la pantalla, la opción que más te guste. Fijate, probalo ahora conmigo. O algo así le escribí a Won Lei, el día que lo conocí, pero en ese momento sonó justo ese ringtone insoportable. Quería explicarle que con la misma facilidad, con un solo y mágico click, se puede cambiar de apariencia o viajar de una punta a la otra del mapa, pero me limité a apretar Enter para enviar únicamente lo que ya tenía escrito y busqué el celular en el escritorio, debajo de las sábanas, incluso en mi morral. No lo encontré ni me preocupé demasiado porque había dejado de sonar. 
+```
+Robinson: para hacer amigos se ingresa el comando '/friend+username'
+Robinson: también se puede hacer click en un botón lindo y con colores
+Robinson: en la parte inferior derecha de la pantalla
+Robinson: la opción que más te gustela opción que más te guste
+```
+
+O algo así le escribí a Won Lei, el día que lo conocí, pero en ese momento sonó justo ese ringtone insoportable. 
+
+Quería explicarle que con la misma facilidad, con un solo y mágico click, se puede cambiar de apariencia o viajar de una punta a la otra del mapa, pero me limité a apretar Enter para enviar únicamente lo que ya tenía escrito y busqué el celular en el escritorio, debajo de las sábanas, incluso en mi morral. No lo encontré ni me preocupé demasiado porque había dejado de sonar. 
 
 Siempre que es importante vuelven a llamar. 
 
 Volví a mi silla. Won Lei no había contestado, esperaba inmóvil en el exacto lugar en el que había estado antes de la llamada. 
 
-`Robinson: Tenés alguna duda?`
-
-`Won_Lei: No`
+```
+Robinson: tenés alguna duda?
+Won_Lei: no
+```
 
 Parecía recién llegado al mundo, pero no a la manera de un recién nacido. Porque aunque Won Lei contara con un complejo manejo del lenguaje, no alcanzaba a formular aún siquiera una de todas las preguntas posibles acerca del mundo de Zhōngguó II. 
 
@@ -24,6 +34,10 @@ A todo esto respondió únicamente que miedo de morir no tenía y que me acompa�
 
 En todo el camino nos cruzamos con apenas dos osos pardos. Algo bastante raro, dado que por esas regiones, salvo por los jugadores, no tienen depredador alguno. Del primero me encargué yo. Esquivé la primera embestida con facilidad. Hacía mucho que no me enfrentaba a uno, pero fue fácil recordar cómo vencerlos. Me quedé esperando que se abalanzara de nuevo sobre mí. F2, F4. Cayó sin resistencia. Alt+Click para juntar el botín: seis huesos y un par de pieles de oso. Nada mal. En ese momento éramos más bien pocos los capaces de exterminar un oso pardo de un solo golpe, pero Won Lei no se asombró. No lo culpé, yo tampoco hubiera sido capaz de comprender algo así ni bien había empezado a jugar unos meses atrás.
 
+```
+Won_Lei: mío
+```
+
 Irónicamente, yo sí me sorprendí al verlo encargarse del segundo. La ventana que los osos pardos permiten para el contraataque es bastante predecible, pero el tiempo que dejan a la reacción es ínfimo. Teniendo tan bajo nivel tuvo que esquivar y contraatacar unas once veces, pero todas y cada una de ellas fue ejecutada con destreza. Las zarpas del oso lo alcanzaron una sola vez y ahora puedo llegar a suponer que fue a propósito. En aquel momento, lejos de toda sospecha, quedé estupefacto a causa del baile que libraron el oso y Won Lei.
 
 Avanzamos durante tres cuartos de hora sin ver una sola bestia más. El pasto estaba manchado por aquí y por allá de huesos y pieles de osos que Won Lei no quiso recoger. Quizás, como yo, sabía que corríamos el riesgo de ser emboscados. O sería mejor decir: sabía que una emboscada era inminente. Sin duda algún grupo de jugadores experimentados había atravesado el bosque en la misma dirección que nosotros y había exterminado todos esos animales sin asco. Decidí que lo mejor era avanzar hasta el próximo páramo y descansar. De esa manera podríamos evitar que la espesura del bosque ocultara a los cazadores hasta el último segundo.
@@ -33,3 +47,7 @@ En cuanto llegamos encendí una fogata y compartí un poco de pan que llevaba en
 Llegué incluso a confiarle lo tonto que me sentía viajando en busca del Archipiélago Parlante, que aún no había conseguido un mapa que me mostrara su ubicación, pero que mi sueño era visitar el templo dedicado a la deidad Einhovant. Que este está construido sobre un acantilado en el extremo oeste de la isla principal y que dicen que el sol se oculta descendiendo a través de los vitrales. Solo con escucharlo me parece uno de los atardeceres más lindos, si no el más lindo de todos.
 
 En ese momento en el que esperábamos ser atacados, tener a Won Lei a cargo, lejos de preocuparme, me hizo sentir seguro.
+
+<center>
+[Índice](index.md)
+</center>

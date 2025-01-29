@@ -9,17 +9,7 @@
 }
 
 .md-nav {
-    max-width: 14code {
-    background-color: rgba(0, 0, 0, 0.1); /* Default styling */
-    padding: 2px 4px;
-    border-radius: 4px;
-}
-
-code[data-highlight] {
-    color: #d17b9e; /* Soft pink */
-    font-weight: bold;
-}
-4px;
+    max-width: 144px;
 }
 
 /* 🛑 Remove Documentation Look */
@@ -48,19 +38,13 @@ img {
     max-width: 100%;
 }
 
-/* 🔗 Stylish Links */
-a {
-    color: #c0392b;
-    text-decoration: none;
-}
-
 a:hover {
     text-decoration: underline;
 }
+
 code {
     background-color: rgba(0, 0, 0, 0.1);
     padding: 2px 4px;
-    border-radius: 4px;
 }
 
 code[whisper] {
