@@ -13,7 +13,7 @@
 }
 
 /* 🛑 Remove Documentation Look */
-.md-header {
+.md-header, .md-sidebar--secondary {
     display: none !important;
 }
 
