@@ -1,8 +1,8 @@
 /* 📖 Make Content Flow Like a Book */
 .md-content {
-    max-width: 1600px; /* Control width for easy reading */
+    max-width: 1600px;
     margin: auto;
-    padding: 60px 20px; /* Space around text */
+    padding: 60px 20px;
 }
 .md-grid {
     max-width: 1600px; 
@@ -45,6 +45,7 @@ a:hover {
 code {
     background-color: rgba(0, 0, 0, 0.1);
     padding: 2px 4px;
+    white-space : pre-wrap !important;
 }
 
 code[whisper] {
