@@ -3,7 +3,7 @@
 ## Deploy
 
 ```bash
-mkdocs gh-deploy --force
+poetry run mkdocs gh-deploy --force
 ```
 
 ## License
