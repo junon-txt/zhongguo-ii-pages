@@ -3,12 +3,12 @@
 
 # <center>Log-in</center>
 
-```
-Robinson: para hacer amigos se ingresa el comando '/friend+username'
-Robinson: también se puede hacer click en un botón lindo y con colores
-Robinson: en la parte inferior derecha de la pantalla
-Robinson: la opción que más te gustela opción que más te guste
-```
+<code>
+<span style="color: #d17b9e">Rob</span>: para hacer amigos se ingresa el comando '/friend+username'
+<span style="color: #d17b9e">Rob</span>: también se puede hacer click en un botón lindo y con colores
+<span style="color: #d17b9e">Rob</span>: en la parte inferior derecha de la pantalla
+<span style="color: #d17b9e">Rob</span>: la opción que más te gustela opción que más te guste
+</code>
 
 O algo así le escribí a Won Lei, el día que lo conocí, pero en ese momento sonó justo ese ringtone insoportable. 
 
@@ -18,10 +18,10 @@ Siempre que es importante vuelven a llamar.
 
 Volví a mi silla. Won Lei no había contestado, esperaba inmóvil en el exacto lugar en el que había estado antes de la llamada. 
 
-```
-Robinson: tenés alguna duda?
+<code>
+<span style="color: #d17b9e">Rob</span>: tenés alguna duda?
 Won_Lei: no
-```
+</code>
 
 Parecía recién llegado al mundo, pero no a la manera de un recién nacido. Porque aunque Won Lei contara con un complejo manejo del lenguaje, no alcanzaba a formular aún siquiera una de todas las preguntas posibles acerca del mundo de Zhōngguó II. 
 
