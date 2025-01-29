@@ -2,7 +2,9 @@
 
 ## Deploy
 
-Triggered on pushes to branch `github-pages` as indicated by [workflow](.github/workflows/deploy.yml).
+```bash
+mkdocs gh-deploy --force
+```
 
 ## License
 
