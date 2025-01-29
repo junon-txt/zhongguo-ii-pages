@@ -3,7 +3,7 @@ site_name: ""
 docs_dir: pages
 
 nav:
-  - Índice: index.md
+  - index.md
   - I.md
 
 theme:
