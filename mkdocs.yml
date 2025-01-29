@@ -1,0 +1,32 @@
+site_name: ZhōngGuó II
+
+docs_dir: github-pages
+
+nav:
+  - Índice: index.md
+  - Capítulo I: 01.md
+
+theme:
+  name: material
+  font:
+    text: "Merriweather"
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.autohide
+    - content.code.annotate
+    - content.tooltips
+    - header.autohide
+
+extra_css:
+  - styles/novel.css
+
+extra_javascript:
+  - styles/novel.js
+
+extra:
+  generator: false
+
+markdown_extensions:
+  - attr_list
