@@ -83,8 +83,7 @@ Los primeros osos pardos empezaron a aparecer. Si no me equivoco, el tiempo que 
 
 Como si lo hubiera predicho Won Lei dijo:
 
-<pre><code class="language-zii">Won_Lei: Ya lo dije: miedo a morir no tengo 
-</code></pre>
+<pre><code class="language-zii">Won_Lei: Ya lo dije: miedo a morir no tengo </code></pre>
 
 Y se desconectó.
 

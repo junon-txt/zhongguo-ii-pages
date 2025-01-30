@@ -42,38 +42,9 @@ a:hover {
     text-decoration: underline;
 }
 
-code {
-    background-color: rgba(0, 0, 0, 0.1);
-    padding: 2px 4px;
-    white-space : pre-wrap !important;
-}
-
-code[whisper] {
-    color: #d17b9e; /* Soft pink */
-    font-weight: bold;
-}
-
-
-pre.language-zii, pre.language-zii code {
-    background-color: #746c52d8 !important;
-    color: #e4e4e4 !important;
-    font-family: "Fira Code", monospace;
-    font-size: 14px;
-    padding: 10px;
-    border-radius: 4px;
-    display: block;
-}
-
-/* Prevent <code> from overriding <pre> */
-pre.language-zii code {
-    background: none !important;
-    color: inherit !important;
-    padding: 0 !important;
-}
-
 
 .chatbox {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.685);
     border: 2px solid #4A4A4A;
     border-radius: 5px;
     padding: 10px;

@@ -1,5 +1,4 @@
-<pre><code class="language-zii">
-[12:34] $PlayerX: This is an Alliance Chat
+<pre><code class="language-zii">[12:34] $PlayerX: This is an Alliance Chat
 [12:35] #User1: Hey everyone, how’s it going?
 [12:36] "User2: Got a moment? Let's chat.
 [12:36] User2": Yeah. I'm Free.

@@ -1,6 +1,6 @@
 site_name: ""
 
-docs_dir: pages_prod
+docs_dir: pages
 
 nav:
   - index.md
