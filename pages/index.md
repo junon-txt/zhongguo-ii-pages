@@ -6,3 +6,7 @@
 ## Índice
 
 - [Capítulo I](I.md)
+- [Capítulo II](II.md)
+
+## Dev
+- [Guía de estilo](style_guide.md)

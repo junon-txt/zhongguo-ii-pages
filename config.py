@@ -1,0 +1,6 @@
+# PLOT RELATED
+NARRATOR_NICKNAME = "Robinson"
+
+# PROJECT RELATED
+DOCS_DIR = "pages"
+BUILT_DOCS_DIR = "pages_prod"

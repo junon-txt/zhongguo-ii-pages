@@ -52,3 +52,76 @@ code[whisper] {
     color: #d17b9e; /* Soft pink */
     font-weight: bold;
 }
+
+
+pre.language-zii, pre.language-zii code {
+    background-color: #746c52d8 !important;
+    color: #e4e4e4 !important;
+    font-family: "Fira Code", monospace;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 4px;
+    display: block;
+}
+
+/* Prevent <code> from overriding <pre> */
+pre.language-zii code {
+    background: none !important;
+    color: inherit !important;
+    padding: 0 !important;
+}
+
+
+.chatbox {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid #4A4A4A;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.message {
+    margin-bottom: 3px;
+    line-height: 1.4;
+    font-family: 'Noto Sans Traditional Chinese';
+}
+
+.system-message {
+    color: #FFD700;
+}
+
+.chat-message {
+    color: #FFFFFF;
+}
+
+.private-message {
+    color: #FF69B4;
+}
+
+.party-message {
+    color: #00FF00;
+}
+
+.clan-message {
+    color: #00BFFF;
+}
+
+.shout-message {
+    color: #FF4500;
+}
+
+.trade-message {
+    color: #FFA500;
+}
+
+.alliance-message {
+    color: #e9f360de;
+}
+
+.timestamp {
+    color: #A9A9A9;
+    font-size: 10px;
+    margin-right: 5px;
+}
