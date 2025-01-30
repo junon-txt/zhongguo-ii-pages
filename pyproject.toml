@@ -9,9 +9,6 @@ readme = "README.md"
 python = "^3.12"
 mkdocs-material = "^9.5.50"
 
-[tool.poetry.scripts]
-transform-zii = "transform_zii_blocks:main"
-
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
