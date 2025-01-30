@@ -1,3 +1,7 @@
+# Guía de Estilo
+
+Chat dentro de Z ][
+
 ```zii
 [12:34] $PlayerX: This is an Alliance Chat
 [12:35] #User1: Hey everyone, how’s it going?
