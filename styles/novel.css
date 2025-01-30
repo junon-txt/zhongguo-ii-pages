@@ -42,13 +42,57 @@ a:hover {
     text-decoration: underline;
 }
 
-code {
-    background-color: rgba(0, 0, 0, 0.1);
-    padding: 2px 4px;
-    white-space : pre-wrap !important;
+
+.chatbox {
+    background-color: rgba(0, 0, 0, 0.685);
+    border: 2px solid #4A4A4A;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-code[whisper] {
-    color: #d17b9e; /* Soft pink */
-    font-weight: bold;
+.message {
+    margin-bottom: 3px;
+    line-height: 1.4;
+    font-family: 'Noto Sans Traditional Chinese';
+}
+
+.system-message {
+    color: #FFD700;
+}
+
+.chat-message {
+    color: #FFFFFF;
+}
+
+.private-message {
+    color: #FF69B4;
+}
+
+.party-message {
+    color: #00FF00;
+}
+
+.clan-message {
+    color: #00BFFF;
+}
+
+.shout-message {
+    color: #FF4500;
+}
+
+.trade-message {
+    color: #FFA500;
+}
+
+.alliance-message {
+    color: #e9f360de;
+}
+
+.timestamp {
+    color: #A9A9A9;
+    font-size: 10px;
+    margin-right: 5px;
 }
