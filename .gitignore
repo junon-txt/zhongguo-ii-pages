@@ -2,3 +2,6 @@
 
 # MkDocs static build files
 site/
+
+# Python
+__pycache__/*

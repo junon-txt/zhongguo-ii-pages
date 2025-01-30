@@ -56,13 +56,16 @@ def transform_zii_block(content):
 def process_file(file_path):
     with open(file_path, "r", encoding="utf-8") as file:
         content = file.read()
+
     transformed_content = re.sub(
-        r"```zii\n([\s\S]*?)```",
+        r"```zii([\s\S]*?)```",
         lambda match: transform_zii_block(match.group(1)),
         content,
     )
+    
     with open(file_path, "w", encoding="utf-8") as file:
         file.write(transformed_content)
+
     print(f"Processed: {file_path}")
 
 def process_directory(directory):

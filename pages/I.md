@@ -4,10 +4,12 @@
 # <center>Log-in</center>
 
 
-<pre><code class="language-zii">Robinson: para hacer amigos se ingresa el comando '/friend+username'
+```zii
+Robinson: para hacer amigos se ingresa el comando '/friend+username'
 Robinson: también se puede hacer click en un botón lindo y con colores
 Robinson: en la parte inferior derecha de la pantalla
-Robinson: la opción que más te gustela opción que más te guste</code></pre>
+Robinson: la opción que más te gustela opción que más te guste
+```
 
 O algo así le escribí a Won Lei, el día que lo conocí, pero en ese momento sonó justo ese ringtone insoportable. 
 
@@ -17,9 +19,10 @@ Siempre que es importante vuelven a llamar.
 
 Volví a mi silla. Won Lei no había contestado, esperaba inmóvil en el exacto lugar en el que había estado antes de la llamada. 
 
-<pre><code class="language-zii">Robinson: tenés alguna duda?
+```zii
+Robinson: tenés alguna duda?
 Won_Lei: no
-</code></pre>
+```
 
 Parecía recién llegado al mundo, pero no a la manera de un recién nacido. Porque aunque Won Lei contara con un complejo manejo del lenguaje, no alcanzaba a formular aún siquiera una de todas las preguntas posibles acerca del mundo de Zhōngguó II. 
 
@@ -34,8 +37,9 @@ A todo esto respondió únicamente que miedo de morir no tenía y que me acompa�
 En todo el camino nos cruzamos con apenas dos osos pardos. Algo bastante raro, dado que por esas regiones, salvo por los jugadores, no tienen depredador alguno. Del primero me encargué yo. Esquivé la primera embestida con facilidad. Hacía mucho que no me enfrentaba a uno, pero fue fácil recordar cómo vencerlos. Me quedé esperando que se abalanzara de nuevo sobre mí. F2, F4. Cayó sin resistencia. Alt+Click para juntar el botín: seis huesos y un par de pieles de oso. Nada mal. En ese momento éramos más bien pocos los capaces de exterminar un oso pardo de un solo golpe, pero Won Lei no se asombró. No lo culpé, yo tampoco hubiera sido capaz de comprender algo así ni bien había empezado a jugar unos meses atrás.
 
 
-<pre><code class="language-zii">Won_Lei: mío
-</code></pre>
+```zii
+Won_Lei: mío
+```
 
 Irónicamente, yo sí me sorprendí al verlo encargarse del segundo. La ventana que los osos pardos permiten para el contraataque es bastante predecible, pero el tiempo que dejan a la reacción es ínfimo. Teniendo tan bajo nivel tuvo que esquivar y contraatacar unas once veces, pero todas y cada una de ellas fue ejecutada con destreza. Las zarpas del oso lo alcanzaron una sola vez y ahora puedo llegar a suponer que fue a propósito. En aquel momento, lejos de toda sospecha, quedé estupefacto a causa del baile que libraron el oso y Won Lei.
 
@@ -49,31 +53,35 @@ En ese momento en el que esperábamos ser atacados, tener a Won Lei a cargo, lej
 
 <hr />
 
-<pre><code class="language-zii">Won_Lei: Nosotros enfrentemos
+```zii
+Won_Lei: Nosotros enfrentemos
 Robinson: Podemos deconectarnos
 Robinson: Es tocar un botón
 Robinson: Nos ahorramos el problema
 Won_Lei: Al volvernos a conectar, siguen en este lugar. 
 Won_Lei: Aunque la espera alcance como para que se hayan ido, es posible que otros jugadores esperen.
-</code></pre>
+```
 
 No tenía razón en todo esto. Desconectarnos no era solo lo más inteligente, sino que nos salvaría con toda seguridad. Desde el interior del bosque era imposible divisar el puerto, pero estábamos cerca. Morir implicaba reaparecer en la última ciudad que hayamos visitado, seguramente lejos de Won Lei. 
 
-<pre><code class="language-zii">Won_Lei: No entré a ninguna ciudad.
-</code></pre>
+```zii
+Won_Lei: No entré a ninguna ciudad.
+```
 
 Para nivel seis ya debería haber pasado por la ciudad inicial y al menos una distinta camino aquí. Pero no es extraño que un novato se pierda y termine en lugares como este sin haber pasado nunca por un pueblo aunque sea para aprender nuevas habilidades. 
 
-<pre><code class="language-zii">Won_Lei: Al final, morimos igual.
-</code></pre>
+```zii
+Won_Lei: Al final, morimos igual.
+```
 
 El panorama era claro: teníamos todo en contra. Principalmente su obstinación por permanecer en línea, pero, como dije antes, lejos de estar preocupado, me sentía tranquilo. Tranquilo como se dice tranquilo no. Mejor dicho, me encontraba concentrado en Zhongguo II. Estaba atento a que reapareciera al menos un oso pardo para tratar de inducir en qué momento y en qué dirección habían pasado por aquí los otros, estaba preparado para pararme y lanzar un escudo. Estaba, por sobre todo, mirando que la fogata no se apague y, detrás de esta, todo aquello a lo que Won Lei le daba la espalda. De allí, de aquello que Won Lei ignoraba podía yo defenderlo y, seguramente, sorprenderlo con mi habilidad. 
 
-<pre><code class="language-zii">Robinson: No podemos desconectarnos si somos objetivo de alguna habilidad o estamos en combate. Es mejor desconectarnos ahora que todavía estamos a salvo. Si apareciera un oso pardo, tendríamos que derrotarlo y recuperar el aliento. 
+```zii
+Robinson: No podemos desconectarnos si somos objetivo de alguna habilidad o estamos en combate. Es mejor desconectarnos ahora que todavía estamos a salvo. Si apareciera un oso pardo, tendríamos que derrotarlo y recuperar el aliento. 
 Won_Lei: El último oso pardo me dio un golpe.
 Robinson: No importa cuánto daño recibamos, seríamos atacados ni bien esquives el primer ataque del animal. 
 Won_Lei: ¿Si atacan, qué importa?
-</code></pre>
+```
 
 No supe responder. Porque es cierto que no tenía ninguna importancia. No había ninguna repercusión. Lo mismo podía decirse de robar en ZII. Es interesante mencionar que, a pesar de estar bloqueado en China, desde que el uso de Facebook lo hizo masivo en la década del 2000, las personas comenzaron a usar datos personales para la creación de avatares en casi todas las plataformas virtuales. Desde sus nombres reales hasta fotos de ellos mismos. Aún así, como lo dije antes: la pena para cualquier crimen en Zhōngguó II repercute únicamente en los avatares y no en sus personas. A mí esto me parece perfecto.
 
@@ -83,7 +91,9 @@ Los primeros osos pardos empezaron a aparecer. Si no me equivoco, el tiempo que 
 
 Como si lo hubiera predicho Won Lei dijo:
 
-<pre><code class="language-zii">Won_Lei: Ya lo dije: miedo a morir no tengo </code></pre>
+```zii
+Won_Lei: Ya lo dije: miedo a morir no tengo 
+```
 
 Y se desconectó.
 
