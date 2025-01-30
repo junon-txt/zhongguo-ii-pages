@@ -14,8 +14,11 @@ check_changes:
 
 build: check_changes
 
-serve: build
+serve-dev:
 	mkdocs serve -f mkdocs-dev.yml
+
+serve: build
+	mkdocs serve
 
 deploy: build
 	mkdocs gh-deploy --force
