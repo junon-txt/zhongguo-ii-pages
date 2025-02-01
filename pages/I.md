@@ -112,9 +112,9 @@ El panorama era claro: teníamos todo en contra. Principalmente su obstinación 
 
 ```zii
 [17:40] Robinson: No podemos desconectarnos si somos objetivo de alguna habilidad
-[17:41] o estamos en combate
-[17:41] Es mejor desconectarnos ahora que todavía estamos a salvo
-[17:41] Si apareciera un oso pardo, tendríamos que derrotarlo y recuperar el aliento. 
+[17:41] Robinson: o estamos en combate
+[17:41] Robinson: Es mejor desconectarnos ahora que todavía estamos a salvo
+[17:41] Robinson: Si apareciera un oso pardo, tendríamos que derrotarlo y recuperar el aliento. 
 [17:41] Won_Lei: El último oso pardo me dio un golpe.
 [17:41] Robinson: No importa cuánto daño recibamos, seríamos atacados ni bien esquives el primer ataque del animal. 
 [17:42] Won_Lei: ¿Si atacan, qué importa?
