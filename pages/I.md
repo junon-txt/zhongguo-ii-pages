@@ -201,20 +201,20 @@ El sonido fue inconfundible. Volví corriendo a mi habitación.
 Mi avatar se había desplomado en el suelo.
 
 ```zii
-[17:57] [Combat] Oso Pardo usa *mordisco* y te pega por 112 de daño
-[17:57] [Warning] Tu HP está baja! Usa una poción de curación o huye.. 
-[17:57] [Combat] Oso Pardo usa *mordisco* y te pega por 122 de daño. 
-[17:57] [Combat] Oso Pardo usa *mordisco* y te pega por 112 de daño. 
-[17:57] [Combat] Oso Pardo usa *mordisco* y te pega por 122 de daño. 
-[17:57] [Warning] Tu HP está baja! Usa una poción de curación o huye.
-[17:57] [Combat] Oso Pardo usa *mordisco* y te pega por 122 de daño. 
-[17:57] [Warning] Tu HP está baja! Usa una poción de curación o huye.
-[17:57] [Combat] Oso Pardo usa *mordisco* y te pega por 112 de daño. 
-[17:57] [Warning] Tu HP está baja! Usa una poción de curación o huye.
-[17:57] [Combat] Oso Pardo usa *mordisco* y te pega por 112 de daño. 
-[17:57] [Combat] Has sido asesinado por Oso Pardo
-[17:57] [System] Has perdido 1322 Adena.  
-[17:57] [System] Has dejado caer 2 [Crisálidas Plateadas]. 
+[17:57] }[Combat]: Oso Pardo usa *mordisco* y te pega por 112 de daño
+[17:57] [Warning]: Tu HP está baja! Usa una poción de curación o huye.. 
+[17:57] }[Combat]: Oso Pardo usa *mordisco* y te pega por 122 de daño. 
+[17:57] }[Combat]: Oso Pardo usa *mordisco* y te pega por 112 de daño. 
+[17:57] }[Combat]: Oso Pardo usa *mordisco* y te pega por 122 de daño. 
+[17:57] ·[Warning]: Tu HP está baja! Usa una poción de curación o huye.
+[17:57] }[Combat]: Oso Pardo usa *mordisco* y te pega por 122 de daño. 
+[17:57] ·[Warning]: Tu HP está baja! Usa una poción de curación o huye.
+[17:57] }[Combat]: Oso Pardo usa *mordisco* y te pega por 112 de daño. 
+[17:57] [Warning]: Tu HP está baja! Usa una poción de curación o huye.
+[17:57] }[Combat]: Oso Pardo usa *mordisco* y te pega por 112 de daño. 
+[17:57] }[Combat]: Has sido asesinado por Oso Pardo
+[17:57] {[System]: Has perdido 1322 Adena.  
+[17:57] {[System]: Has dejado caer 2 [Crisálidas Plateadas]. 
 ```
 
 <center>

@@ -63,6 +63,14 @@ a:hover {
     color: #FFD700;
 }
 
+.combat-message {
+    color: #757575;
+}
+
+.warning-message {
+    color: #f81924;
+}
+
 .chat-message {
     color: #FFFFFF;
 }

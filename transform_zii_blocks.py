@@ -39,6 +39,15 @@ def transform_zii_block(content):
                 message_type = "clan-message"
             elif nickname.startswith("$"):
                 message_type = "alliance-message"
+            elif nickname.startswith("{"):
+                nickname = nickname.replace("{", "")
+                message_type = "system-message"
+            elif nickname.startswith("}"):
+                nickname = nickname.replace("}", "")
+                message_type = "combat-message"
+            elif nickname.startswith("·"):
+                nickname = nickname.replace("·", "")
+                message_type = "warning-message"
 
         message = f'<div class="message {message_type}">\n'
         if timestamp:
