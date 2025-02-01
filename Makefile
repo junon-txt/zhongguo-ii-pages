@@ -20,7 +20,7 @@ serve-dev:
 serve: build
 	mkdocs serve
 
-deploy: build
+deploy: clean build
 	mkdocs gh-deploy --force
 
 clean:
