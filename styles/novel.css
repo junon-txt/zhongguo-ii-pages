@@ -12,11 +12,16 @@
     max-width: 144px;
 }
 
-/* 🛑 Remove Documentation Look */
-.md-header, .md-sidebar--secondary {
+.md-header {
+    background-color: #4A4A4A;
+    position: absolute;
     display: none !important;
 }
 
+/* 🛑 Remove Documentation Look */
+.md-sidebar--secondary {
+    display: none !important;
+}
 
 /* ✅ Ensure Text Wraps Properly */
 .md-typeset {
