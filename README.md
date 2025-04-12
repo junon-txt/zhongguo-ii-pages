@@ -3,6 +3,7 @@
 ## Deploy
 
 ```bash
+poetry run python transform_zii_blocks.py
 poetry run mkdocs gh-deploy --force
 ```
 

@@ -1,11 +1,21 @@
-site_name: ""
+site_name: "Zhōngguó II"
 
 docs_dir: pages_build
 
 nav:
-  - index.md
-  - I.md
-  - II.md
+  - Home: https://robin.ar
+  - Índice: index.md
+  - Capítulos:
+    - I: I.md
+    - II: II.md
+    - III: III.md
+    - IV: IV.md
+    - V: V.md
+    - VI: VI.md
+    - VII: VII.md
+    - VIII: VIII.md
+    - IX: IX.md
+    - X: X.md
 
 theme:
   name: material
@@ -14,12 +24,15 @@ theme:
     code: "Noto Sans Traditional Chinese"
   features:
     - navigation.instant
+    - navigation.expand
     - navigation.tracking
     - navigation.top
     - navigation.autohide
     - content.code.annotate
     - content.tooltips
     - header.autohide
+    - toc.integrate
+
 
 extra_css:
   - styles/novel.css
@@ -38,4 +51,4 @@ markdown_extensions:
         - name: zii
           class: language-zii
   - pymdownx.highlight:
-      use_pygments: false 
+      use_pygments: false
