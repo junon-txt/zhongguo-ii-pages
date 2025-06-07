@@ -43,7 +43,9 @@
       
     
     
-      <link rel="stylesheet" href="../styles/novel.css">
+      <link rel="stylesheet" href="../styles/main.css">
+    
+      <link rel="stylesheet" href="../styles/chat.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -511,25 +513,16 @@
 
 <h1 id="log-in"><center>Log-in</center></h1>
 <div class="chatbox">
-<div class="message chat-message">
-<span class="timestamp">[15:34]</span>
-<strong>Robinson:</strong>
-<span>para hacer amigos se ingresa el comando '/friend+username'</span>
+<div class="chat-messages">
+<pre><code>
+<span class="message chat"><span class="timestamp">[15:34]</span> <span class="username">Robinson:</span> <span class="content">para hacer amigos se ingresa el comando '/friend+username'</span></span>
+<span class="message chat"><span class="timestamp">[15:34]</span> <span class="username">Robinson:</span> <span class="content">también se puede hacer click en un botón lindo y con colores</span></span>
+<span class="message chat"><span class="timestamp">[15:34]</span> <span class="username">Robinson:</span> <span class="content">en la parte inferior derecha de la pantalla</span></span>
+<span class="message chat"><span class="timestamp">[15:35]</span> <span class="username">Robinson:</span> <span class="content">la opción que más te guste</span></span>
+</code></pre>
 </div>
-<div class="message chat-message">
-<span class="timestamp">[15:34]</span>
-<strong>Robinson:</strong>
-<span>también se puede hacer click en un botón lindo y con colores</span>
-</div>
-<div class="message chat-message">
-<span class="timestamp">[15:34]</span>
-<strong>Robinson:</strong>
-<span>en la parte inferior derecha de la pantalla</span>
-</div>
-<div class="message chat-message">
-<span class="timestamp">[15:35]</span>
-<strong>Robinson:</strong>
-<span>la opción que más te guste</span>
+<div class="chat-input">
+<input type="text" placeholder="Type your message...">
 </div>
 </div>
 
@@ -538,15 +531,14 @@
 <p>Siempre que es importante vuelven a llamar. </p>
 <p>Volví a mi silla. Won Lei no había contestado, esperaba inmóvil en el exacto lugar en el que había estado antes de la llamada. </p>
 <div class="chatbox">
-<div class="message chat-message">
-<span class="timestamp">[15:35]</span>
-<strong>Robinson:</strong>
-<span>Tenés alguna duda?</span>
+<div class="chat-messages">
+<pre><code>
+<span class="message chat"><span class="timestamp">[15:35]</span> <span class="username">Robinson:</span> <span class="content">Tenés alguna duda?</span></span>
+<span class="message chat"><span class="timestamp">[15:35]</span> <span class="username">Won_Lei:</span> <span class="content">No</span></span>
+</code></pre>
 </div>
-<div class="message chat-message">
-<span class="timestamp">[15:35]</span>
-<strong>Won_Lei:</strong>
-<span>No</span>
+<div class="chat-input">
+<input type="text" placeholder="Type your message...">
 </div>
 </div>
 
@@ -576,30 +568,17 @@ for your phone and is ready to install</code></pre>
 <p>A todo esto respondió únicamente que miedo de morir no tenía y que me acompañaría al menos hasta el puerto. Partimos sin demora con la esperanza de que no nos sorprenda la noche en el bosque. Supe recién entonces que Won Lei era, como la mayoría, chino. No puede dejar de fascinarme que gracias al juego podamos comunicarnos a pesar de la diferencia idiomática. Este traduce en vivo todo lo que escribimos gracias al aporte de miles de jugadores como yo que ayudan a perfeccionar el algoritmo sin más recompensa que un par de monedas del juego. Aunque estaba orgulloso de formar parte de ese sistema, no se lo conté para no sobrecargarlo de información y creo que por guardar este detalle terminé callando más de lo que debía, porque no intercambiamos muchas palabras más en este trayecto del viaje.</p>
 <p>En todo el camino nos cruzamos con apenas dos osos pardos. Algo bastante raro, dado que por esas regiones, salvo por los jugadores, no tienen depredador alguno. Del primero me encargué yo. Esquivé la primera embestida con facilidad. Hacía mucho que no me enfrentaba a uno, pero fue fácil recordar cómo vencerlos. Me quedé esperando que se abalanzara de nuevo sobre mí. F2, F4. Cayó sin resistencia. Nada mal. Alt+Click para juntar el botín: seis huesos y un par de pieles de oso. En ese momento éramos más bien pocos los capaces de exterminar un oso pardo de un solo golpe, pero Won Lei no se asombró. No lo culpé, yo tampoco hubiera sido capaz de comprender algo así ni bien había empezado a jugar unos meses atrás.</p>
 <div class="chatbox">
-<div class="message combat-message">
-<span class="timestamp">[16:45]</span>
-<strong>[Combat]:</strong>
-<span>Has esquivado el ataque de Oso Pardo</span>
+<div class="chat-messages">
+<pre><code>
+<span class="message combat"><span class="timestamp">[16:45]</span> <span class="username">[Combat]:</span> <span class="content">Has esquivado el ataque de Oso Pardo</span></span>
+<span class="message combat"><span class="timestamp">[16:46]</span> <span class="username">[Combat]:</span> <span class="content">Has esquivado el ataque de Oso Pardo</span></span>
+<span class="message system"><span class="timestamp">[16:46]</span> <span class="username">[System]:</span> <span class="content">Has obtenido 6 [Huesos].</span></span>
+<span class="message system"><span class="timestamp">[16:46]</span> <span class="username">[System]:</span> <span class="content">Has obtenido 2 [Pieles de Oso].</span></span>
+<span class="message chat"><span class="timestamp">[16:46]</span> <span class="username">Won_Lei:</span> <span class="content">Mío</span></span>
+</code></pre>
 </div>
-<div class="message combat-message">
-<span class="timestamp">[16:46]</span>
-<strong>[Combat]:</strong>
-<span>Has esquivado el ataque de Oso Pardo</span>
-</div>
-<div class="message system-message">
-<span class="timestamp">[16:46]</span>
-<strong>[System]:</strong>
-<span>Has obtenido 6 [Huesos].</span>
-</div>
-<div class="message system-message">
-<span class="timestamp">[16:46]</span>
-<strong>[System]:</strong>
-<span>Has obtenido 2 [Pieles de Oso].</span>
-</div>
-<div class="message chat-message">
-<span class="timestamp">[16:46]</span>
-<strong>Won_Lei:</strong>
-<span>Mío</span>
+<div class="chat-input">
+<input type="text" placeholder="Type your message...">
 </div>
 </div>
 
@@ -610,102 +589,62 @@ for your phone and is ready to install</code></pre>
 <hr />
 
 <div class="chatbox">
-<div class="message chat-message">
-<span class="timestamp">[17:38]</span>
-<strong>Won_Lei:</strong>
-<span>Nosotros enfrentémoslos</span>
+<div class="chat-messages">
+<pre><code>
+<span class="message chat"><span class="timestamp">[17:38]</span> <span class="username">Won_Lei:</span> <span class="content">Nosotros enfrentémoslos</span></span>
+<span class="message chat"><span class="timestamp">[17:38]</span> <span class="username">Robinson:</span> <span class="content">Podemos deconectarnos</span></span>
+<span class="message chat"><span class="timestamp">[17:38]</span> <span class="username">Robinson:</span> <span class="content">Es tocar un botón</span></span>
+<span class="message chat"><span class="timestamp">[17:39]</span> <span class="username">Robinson:</span> <span class="content">Nos ahorramos el problema</span></span>
+<span class="message chat"><span class="timestamp">[17:40]</span> <span class="username">Won_Lei:</span> <span class="content">Al volvernos a conectar, seguirán en este lugar.</span></span>
+<span class="message chat"><span class="timestamp">[17:40]</span> <span class="username">Won_Lei:</span> <span class="content">Aunque la espera alcance como para que se hayan ido, es posible que otros jugadores nos esperen.</span></span>
+</code></pre>
 </div>
-<div class="message chat-message">
-<span class="timestamp">[17:38]</span>
-<strong>Robinson:</strong>
-<span>Podemos deconectarnos</span>
-</div>
-<div class="message chat-message">
-<span class="timestamp">[17:38]</span>
-<strong>Robinson:</strong>
-<span>Es tocar un botón</span>
-</div>
-<div class="message chat-message">
-<span class="timestamp">[17:39]</span>
-<strong>Robinson:</strong>
-<span>Nos ahorramos el problema</span>
-</div>
-<div class="message chat-message">
-<span class="timestamp">[17:40]</span>
-<strong>Won_Lei:</strong>
-<span>Al volvernos a conectar, seguirán en este lugar.</span>
-</div>
-<div class="message chat-message">
-<span class="timestamp">[17:40]</span>
-<strong>Won_Lei:</strong>
-<span>Aunque la espera alcance como para que se hayan ido, es posible que otros jugadores nos esperen.</span>
+<div class="chat-input">
+<input type="text" placeholder="Type your message...">
 </div>
 </div>
 
 <p>No tenía razón en todo esto. Desconectarnos no era solo lo más inteligente, sino que nos salvaría con toda seguridad. Desde el interior del bosque era imposible divisar el puerto, pero estábamos cerca. Morir implicaba reaparecer en la última ciudad que hayamos visitado, seguramente lejos de Won Lei. </p>
 <div class="chatbox">
-<div class="message chat-message">
-<span class="timestamp">[17:40]</span>
-<strong>Robinson:</strong>
-<span>Entraste en alguna city Won Lei?</span>
+<div class="chat-messages">
+<pre><code>
+<span class="message chat"><span class="timestamp">[17:40]</span> <span class="username">Robinson:</span> <span class="content">Entraste en alguna city Won Lei?</span></span>
+<span class="message chat"><span class="timestamp">[17:40]</span> <span class="username">Won_Lei:</span> <span class="content">No entré a ninguna ciudad.</span></span>
+</code></pre>
 </div>
-<div class="message chat-message">
-<span class="timestamp">[17:40]</span>
-<strong>Won_Lei:</strong>
-<span>No entré a ninguna ciudad.</span>
+<div class="chat-input">
+<input type="text" placeholder="Type your message...">
 </div>
 </div>
 
 <p>Para nivel seis ya debería haber pasado por la ciudad inicial y al menos una distinta camino aquí. Pero no es extraño que un novato se pierda y termine en lugares como este sin haber pasado nunca por un pueblo aunque sea para aprender nuevas habilidades. </p>
 <div class="chatbox">
-<div class="message chat-message">
-<span class="timestamp">[17:40]</span>
-<strong>Won_Lei:</strong>
-<span>Al final, morimos igual.</span>
+<div class="chat-messages">
+<pre><code>
+<span class="message chat"><span class="timestamp">[17:40]</span> <span class="username">Won_Lei:</span> <span class="content">Al final, morimos igual.</span></span>
+</code></pre>
+</div>
+<div class="chat-input">
+<input type="text" placeholder="Type your message...">
 </div>
 </div>
 
 <p>El panorama era claro: teníamos todo en contra. Principalmente su obstinación por permanecer en línea, pero, como dije antes, lejos de estar preocupado, me sentía tranquilo. Tranquilo como se dice tranquilo no. Mejor dicho, me encontraba concentrado en Zhōngguó II. Estaba atento a que reapareciera al menos un oso pardo para tratar de inducir en qué momento y en qué dirección habían pasado por aquí los otros, estaba preparado para pararme y lanzar un escudo. Estaba, por sobre todo, mirando que la fogata no se apague y, detrás de esta, todo aquello a lo que Won Lei le daba la espalda. De allí, de aquello que Won Lei ignoraba podía yo defenderlo y, seguramente, sorprenderlo con mi habilidad.</p>
 <div class="chatbox">
-<div class="message chat-message">
-<span class="timestamp">[17:40]</span>
-<strong>Robinson:</strong>
-<span>No podemos desconectarnos si somos objetivo de alguna habilidad</span>
+<div class="chat-messages">
+<pre><code>
+<span class="message chat"><span class="timestamp">[17:40]</span> <span class="username">Robinson:</span> <span class="content">No podemos desconectarnos si somos objetivo de alguna habilidad</span></span>
+<span class="message chat"><span class="timestamp">[17:41]</span> <span class="username">Robinson:</span> <span class="content">o estamos en combate</span></span>
+<span class="message chat"><span class="timestamp">[17:41]</span> <span class="username">Robinson:</span> <span class="content">Es mejor desconectarnos ahora que todavía estamos a salvo</span></span>
+<span class="message chat"><span class="timestamp">[17:41]</span> <span class="username">Robinson:</span> <span class="content">Si apareciera un oso pardo, tendríamos que derrotarlo y recuperar el aliento</span></span>
+<span class="message chat"><span class="timestamp">[17:41]</span> <span class="username">Won_Lei:</span> <span class="content">El último oso pardo me dio un golpe.</span></span>
+<span class="message chat"><span class="timestamp">[17:41]</span> <span class="username">Robinson:</span> <span class="content">Da igual el daño que recibamos</span></span>
+<span class="message chat"><span class="timestamp">[17:41]</span> <span class="username">Robinson:</span> <span class="content">seríamos atacados ni bien esquives el primer ataque del animal</span></span>
+<span class="message chat"><span class="timestamp">[17:42]</span> <span class="username">Won_Lei:</span> <span class="content">¿Si atacan, qué importa?</span></span>
+</code></pre>
 </div>
-<div class="message chat-message">
-<span class="timestamp">[17:41]</span>
-<strong>Robinson:</strong>
-<span>o estamos en combate</span>
-</div>
-<div class="message chat-message">
-<span class="timestamp">[17:41]</span>
-<strong>Robinson:</strong>
-<span>Es mejor desconectarnos ahora que todavía estamos a salvo</span>
-</div>
-<div class="message chat-message">
-<span class="timestamp">[17:41]</span>
-<strong>Robinson:</strong>
-<span>Si apareciera un oso pardo, tendríamos que derrotarlo y recuperar el aliento</span>
-</div>
-<div class="message chat-message">
-<span class="timestamp">[17:41]</span>
-<strong>Won_Lei:</strong>
-<span>El último oso pardo me dio un golpe.</span>
-</div>
-<div class="message chat-message">
-<span class="timestamp">[17:41]</span>
-<strong>Robinson:</strong>
-<span>Da igual el daño que recibamos</span>
-</div>
-<div class="message chat-message">
-<span class="timestamp">[17:41]</span>
-<strong>Robinson:</strong>
-<span>seríamos atacados ni bien esquives el primer ataque del animal</span>
-</div>
-<div class="message chat-message">
-<span class="timestamp">[17:42]</span>
-<strong>Won_Lei:</strong>
-<span>¿Si atacan, qué importa?</span>
+<div class="chat-input">
+<input type="text" placeholder="Type your message...">
 </div>
 </div>
 
@@ -714,10 +653,13 @@ for your phone and is ready to install</code></pre>
 <p>Los primeros osos pardos empezaron a aparecer. Si no me equivoco, el tiempo que pasa desde que mueren hasta que se carga una nueva copia del oso pardo es de unos veintisiete minutos. Para ser enemigos tan débiles es mucho tiempo, pero los cierto es que la región está plagada de ellos. Una matanza de esta extensión no es frecuente. Pero fueron apareciendo uno a uno con un intervalo entre apariciones tan pequeño que era como si hubieran acabado con todos prácticamente a la vez.</p>
 <p>Como si lo hubiera predicho Won Lei dijo:</p>
 <div class="chatbox">
-<div class="message chat-message">
-<span class="timestamp">[17:42]</span>
-<strong>Won_Lei:</strong>
-<span>Ya lo dije: miedo a morir no tengo</span>
+<div class="chat-messages">
+<pre><code>
+<span class="message chat"><span class="timestamp">[17:42]</span> <span class="username">Won_Lei:</span> <span class="content">Ya lo dije: miedo a morir no tengo</span></span>
+</code></pre>
+</div>
+<div class="chat-input">
+<input type="text" placeholder="Type your message...">
 </div>
 </div>
 
@@ -771,75 +713,26 @@ Tengo que ir yo a ponerla?!
 <p>El sonido fue inconfundible. Volví corriendo a mi habitación.</p>
 <p>Mi avatar se había desplomado en el suelo.</p>
 <div class="chatbox">
-<div class="message combat-message">
-<span class="timestamp">[17:57]</span>
-<strong>[Combat]:</strong>
-<span>Oso Pardo usa *mordisco* y te pega por 112 de daño.</span>
+<div class="chat-messages">
+<pre><code>
+<span class="message combat"><span class="timestamp">[17:57]</span> <span class="username">[Combat]:</span> <span class="content">Oso Pardo usa *mordisco* y te pega por 112 de daño.</span></span>
+<span class="message chat"><span class="timestamp">[17:57]</span> <span class="username">[Warning]:</span> <span class="content">Tu HP está baja! Usa una poción de curación o huye.</span></span>
+<span class="message combat"><span class="timestamp">[17:57]</span> <span class="username">[Combat]:</span> <span class="content">Oso Pardo usa *mordisco* y te pega por 122 de daño.</span></span>
+<span class="message combat"><span class="timestamp">[17:57]</span> <span class="username">[Combat]:</span> <span class="content">Oso Pardo usa *mordisco* y te pega por 112 de daño.</span></span>
+<span class="message combat"><span class="timestamp">[17:57]</span> <span class="username">[Combat]:</span> <span class="content">Oso Pardo usa *mordisco* y te pega por 122 de daño.</span></span>
+<span class="message warning"><span class="timestamp">[17:57]</span> <span class="username">[Warning]:</span> <span class="content">Tu HP está baja! Usa una poción de curación o huye.</span></span>
+<span class="message combat"><span class="timestamp">[17:57]</span> <span class="username">[Combat]:</span> <span class="content">Oso Pardo usa *mordisco* y te pega por 122 de daño.</span></span>
+<span class="message warning"><span class="timestamp">[17:57]</span> <span class="username">[Warning]:</span> <span class="content">Tu HP está baja! Usa una poción de curación o huye.</span></span>
+<span class="message combat"><span class="timestamp">[17:57]</span> <span class="username">[Combat]:</span> <span class="content">Oso Pardo usa *mordisco* y te pega por 112 de daño.</span></span>
+<span class="message chat"><span class="timestamp">[17:57]</span> <span class="username">[Warning]:</span> <span class="content">Tu HP está baja! Usa una poción de curación o huye.</span></span>
+<span class="message combat"><span class="timestamp">[17:57]</span> <span class="username">[Combat]:</span> <span class="content">Oso Pardo usa *mordisco* y te pega por 112 de daño.</span></span>
+<span class="message combat"><span class="timestamp">[17:57]</span> <span class="username">[Combat]:</span> <span class="content">Has sido asesinado por Oso Pardo.</span></span>
+<span class="message system"><span class="timestamp">[17:57]</span> <span class="username">[System]:</span> <span class="content">Has perdido 1322 [Adena].</span></span>
+<span class="message system"><span class="timestamp">[17:57]</span> <span class="username">[System]:</span> <span class="content">Has dejado caer 2 [Crisálidas Plateadas].</span></span>
+</code></pre>
 </div>
-<div class="message chat-message">
-<span class="timestamp">[17:57]</span>
-<strong>[Warning]:</strong>
-<span>Tu HP está baja! Usa una poción de curación o huye.</span>
-</div>
-<div class="message combat-message">
-<span class="timestamp">[17:57]</span>
-<strong>[Combat]:</strong>
-<span>Oso Pardo usa *mordisco* y te pega por 122 de daño.</span>
-</div>
-<div class="message combat-message">
-<span class="timestamp">[17:57]</span>
-<strong>[Combat]:</strong>
-<span>Oso Pardo usa *mordisco* y te pega por 112 de daño.</span>
-</div>
-<div class="message combat-message">
-<span class="timestamp">[17:57]</span>
-<strong>[Combat]:</strong>
-<span>Oso Pardo usa *mordisco* y te pega por 122 de daño.</span>
-</div>
-<div class="message warning-message">
-<span class="timestamp">[17:57]</span>
-<strong>[Warning]:</strong>
-<span>Tu HP está baja! Usa una poción de curación o huye.</span>
-</div>
-<div class="message combat-message">
-<span class="timestamp">[17:57]</span>
-<strong>[Combat]:</strong>
-<span>Oso Pardo usa *mordisco* y te pega por 122 de daño.</span>
-</div>
-<div class="message warning-message">
-<span class="timestamp">[17:57]</span>
-<strong>[Warning]:</strong>
-<span>Tu HP está baja! Usa una poción de curación o huye.</span>
-</div>
-<div class="message combat-message">
-<span class="timestamp">[17:57]</span>
-<strong>[Combat]:</strong>
-<span>Oso Pardo usa *mordisco* y te pega por 112 de daño.</span>
-</div>
-<div class="message chat-message">
-<span class="timestamp">[17:57]</span>
-<strong>[Warning]:</strong>
-<span>Tu HP está baja! Usa una poción de curación o huye.</span>
-</div>
-<div class="message combat-message">
-<span class="timestamp">[17:57]</span>
-<strong>[Combat]:</strong>
-<span>Oso Pardo usa *mordisco* y te pega por 112 de daño.</span>
-</div>
-<div class="message combat-message">
-<span class="timestamp">[17:57]</span>
-<strong>[Combat]:</strong>
-<span>Has sido asesinado por Oso Pardo.</span>
-</div>
-<div class="message system-message">
-<span class="timestamp">[17:57]</span>
-<strong>[System]:</strong>
-<span>Has perdido 1322 [Adena].</span>
-</div>
-<div class="message system-message">
-<span class="timestamp">[17:57]</span>
-<strong>[System]:</strong>
-<span>Has dejado caer 2 [Crisálidas Plateadas].</span>
+<div class="chat-input">
+<input type="text" placeholder="Type your message...">
 </div>
 </div>
 

@@ -43,7 +43,9 @@
       
     
     
-      <link rel="stylesheet" href="../styles/novel.css">
+      <link rel="stylesheet" href="../styles/main.css">
+    
+      <link rel="stylesheet" href="../styles/chat.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -515,54 +517,53 @@
 <p>Él, por su parte, no hablaba. De alguna forma había encontrado el ritmo para esquivar los ataques de los orcos. No era algo que zhangHERO o chenMeng pudieran lograr. Solía creer que algún día dejarían de sorprenderme sus demostraciones de habilidad. Terminé acostumbrándome a admirarlo.</p>
 <p>Por supuesto, yo tampoco podriá haber hecho algo así. </p>
 <div class="chatbox">
-<div class="message party-message">
-<span class="timestamp">[20:09]</span>
-<strong>#zhangHERO:</strong>
-<span>Una caravana de Congreso de Lobos pasaría fácilmente.</span>
+<div class="chat-messages">
+<pre><code>
+<span class="message party"><span class="timestamp">[20:09]</span> <span class="username">#zhangHERO:</span> <span class="content">Una caravana de Congreso de Lobos pasaría fácilmente.</span></span>
+<span class="message party"><span class="timestamp">[20:09]</span> <span class="username">#chenMeng:</span> <span class="content">¡Joven maestro Won Lei!</span></span>
+</code></pre>
 </div>
-<div class="message party-message">
-<span class="timestamp">[20:09]</span>
-<strong>#chenMeng:</strong>
-<span>¡Joven maestro Won Lei!</span>
+<div class="chat-input">
+<input type="text" placeholder="Type your message...">
 </div>
 </div>
 
 <p>Pero como siempre algún descuido tonto basta para arruinarlo todo. Se suponía que mi único trabajo era lanzar un hechizo, alejarme para que ningún orco me alcanzara. Lanzar otro, alejarme. Cada tanto curar a Won Lei en lugar de lanzar un hechizo. A esto se lo llama “kite”, barrilete en inglés. El enemigo te va siguiendo como un barrilete, la idea es bella. En la práctica, sin embargo, hace falta intercalar un click de movimiento entre acciones. Di uno de esos clicks en la ventana emergente de traducción que apareció de sorpresa.</p>
 <div class="chatbox">
-<div class="message system-message">
-<strong>[System]:</strong>
-<span>--¿Podría, por favor, validar esta traducción?--</span>
+<div class="chat-messages">
+<pre><code>
+<span class="message system"><span class="username">[System]:</span> <span class="content">--¿Podría, por favor, validar esta traducción?--</span></span>
+<span class="message system"><span class="username">[System]:</span> <span class="content">[zh]: “少小離家老大回”</span></span>
+<span class="message system"><span class="username">[System]:</span> <span class="content">[es]: “Pequeño y viejo, de vuelta a casa.”</span></span>
+</code></pre>
 </div>
-<div class="message system-message">
-<strong>[System]:</strong>
-<span>[zh]: “少小離家老大回”</span>
-</div>
-<div class="message system-message">
-<strong>[System]:</strong>
-<span>[es]: “Pequeño y viejo, de vuelta a casa.”</span>
+<div class="chat-input">
+<input type="text" placeholder="Type your message...">
 </div>
 </div>
 
 <p>Mi avatar no se movió y los orcos que me seguían me alcanzaron.</p>
 <div class="chatbox">
-<div class="message private-message">
-<span class="timestamp">[20:11]</span>
-<strong>#Won_Lei->Robinson:</strong>
-<span>Cuidate X</span>
+<div class="chat-messages">
+<pre><code>
+<span class="message private"><span class="timestamp">[20:11]</span> <span class="username">#Won_Lei->Robinson:</span> <span class="content">Cuidate X</span></span>
+</code></pre>
+</div>
+<div class="chat-input">
+<input type="text" placeholder="Type your message...">
 </div>
 </div>
 
 <p>chenMeng no iba a llegar está vez a provocarlos, pero entendí lo que Won Lei quiso decirme.</p>
 <div class="chatbox">
-<div class="message party-message">
-<span class="timestamp">[20:11]</span>
-<strong>#Won_Lei:</strong>
-<span>X1X1X2X3X5X7X1X1X2X3X5- - -</span>
+<div class="chat-messages">
+<pre><code>
+<span class="message party"><span class="timestamp">[20:11]</span> <span class="username">#Won_Lei:</span> <span class="content">X1X1X2X3X5X7X1X1X2X3X5- - -</span></span>
+<span class="message combat"><span class="timestamp">[20:11]</span> <span class="username">[Combat]:</span> <span class="content">Orco usa *sablazo* y te pega por 912 de daño.</span></span>
+</code></pre>
 </div>
-<div class="message combat-message">
-<span class="timestamp">[20:11]</span>
-<strong>[Combat]:</strong>
-<span>Orco usa *sablazo* y te pega por 912 de daño.</span>
+<div class="chat-input">
+<input type="text" placeholder="Type your message...">
 </div>
 </div>
 
@@ -571,320 +572,137 @@
 <p>El tercer ataque tardó en caer, pero lo esperé. No logró hacerme daño. De hecho, hubiera muerto.</p>
 <p>El cuarto ataque tardó el triple del segundo, chenMeng ya estaba al lado mío. </p>
 <div class="chatbox">
-<div class="message combat-message">
-<span class="timestamp">[20:11]</span>
-<strong>[Combat]:</strong>
-<span>Orco usa *sablazo* y te pega por 712 de daño.</span>
+<div class="chat-messages">
+<pre><code>
+<span class="message combat"><span class="timestamp">[20:11]</span> <span class="username">[Combat]:</span> <span class="content">Orco usa *sablazo* y te pega por 712 de daño.</span></span>
+<span class="message combat"><span class="timestamp">[20:11]</span> <span class="username">[Combat]:</span> <span class="content">Has logrado esquivar *flechazo* de Arquero Orco.</span></span>
+<span class="message combat"><span class="timestamp">[20:11]</span> <span class="username">[Combat]:</span> <span class="content">Has logrado equivar el *sablazo* de Orco.</span></span>
+<span class="message party"><span class="timestamp">[20:11]</span> <span class="username">#Won_Lei:</span> <span class="content">¡Robinson, ese es ritmo correcto!</span></span>
+<span class="message party"><span class="timestamp">[20:11]</span> <span class="username">#chenMeng:</span> <span class="content">Estoy cansada TT _ TT</span></span>
+<span class="message party"><span class="timestamp">[20:11]</span> <span class="username">#Won_Lei:</span> <span class="content">Es truco en campo de flores para un orco.</span></span>
+<span class="message party"><span class="timestamp">[20:11]</span> <span class="username">#Won_Lei:</span> <span class="content">Para dos Orcos, con fase de 1,</span></span>
+<span class="message party"><span class="timestamp">[20:11]</span> <span class="username">#chenMeng:</span> <span class="content">No estoy a la altura hahaha</span></span>
+<span class="message party"><span class="timestamp">[20:11]</span> <span class="username">#Won_Lei:</span> <span class="content">XXXXXX1XX2XX4XX</span></span>
+<span class="message party"><span class="timestamp">[20:11]</span> <span class="username">#zhangHERO:</span> <span class="content">Viene más. Aparecen encima de colina.</span></span>
+<span class="message party"><span class="timestamp">[20:11]</span> <span class="username">#Won_Lei:</span> <span class="content">Tres con fase entre de 1</span></span>
+<span class="message party"><span class="timestamp">[20:11]</span> <span class="username">#zhangHERO:</span> <span class="content">No entiendo qué está hablando, Won Lei.</span></span>
+<span class="message party"><span class="timestamp">[20:11]</span> <span class="username">#Won_Lei:</span> <span class="content">XXXXXXXXXX1XXX3XXX</span></span>
+<span class="message party"><span class="timestamp">[20:11]</span> <span class="username">#zhangHERO:</span> <span class="content">2 Más.</span></span>
+<span class="message party"><span class="timestamp">[20:11]</span> <span class="username">#Won_Lei:</span> <span class="content">Ese es esquive versus tiempo de espera.</span></span>
+</code></pre>
 </div>
-<div class="message combat-message">
-<span class="timestamp">[20:11]</span>
-<strong>[Combat]:</strong>
-<span>Has logrado esquivar *flechazo* de Arquero Orco.</span>
-</div>
-<div class="message combat-message">
-<span class="timestamp">[20:11]</span>
-<strong>[Combat]:</strong>
-<span>Has logrado equivar el *sablazo* de Orco.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:11]</span>
-<strong>#Won_Lei:</strong>
-<span>¡Robinson, ese es ritmo correcto!</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:11]</span>
-<strong>#chenMeng:</strong>
-<span>Estoy cansada TT _ TT</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:11]</span>
-<strong>#Won_Lei:</strong>
-<span>Es truco en campo de flores para un orco.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:11]</span>
-<strong>#Won_Lei:</strong>
-<span>Para dos Orcos, con fase de 1,</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:11]</span>
-<strong>#chenMeng:</strong>
-<span>No estoy a la altura hahaha</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:11]</span>
-<strong>#Won_Lei:</strong>
-<span>XXXXXX1XX2XX4XX</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:11]</span>
-<strong>#zhangHERO:</strong>
-<span>Viene más. Aparecen encima de colina.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:11]</span>
-<strong>#Won_Lei:</strong>
-<span>Tres con fase entre de 1</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:11]</span>
-<strong>#zhangHERO:</strong>
-<span>No entiendo qué está hablando, Won Lei.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:11]</span>
-<strong>#Won_Lei:</strong>
-<span>XXXXXXXXXX1XXX3XXX</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:11]</span>
-<strong>#zhangHERO:</strong>
-<span>2 Más.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:11]</span>
-<strong>#Won_Lei:</strong>
-<span>Ese es esquive versus tiempo de espera.</span>
+<div class="chat-input">
+<input type="text" placeholder="Type your message...">
 </div>
 </div>
 
 <p>Estoy seguro de que Won Lei compartió conmigo el tempo para esquivar un orco solo porque estuve a punto de morir. Hubiera preferido guardárselo para sí. Si hubiéramos estado solo nosotros dos, habría tenido por defecto el chat privado y no el de party. Creo que de igual forma el impacto que causó en el clan justificaba compartir lo que había descubierto.</p>
 <p>Al final los cuatro logramos acompasarnos al ritmo de los ataques de los orcos, pero por muchos esbirros que matáramos no lográbamos acercanos al Orco Gigante. Solo podíamos ver a lo lejos su cabeza por sobre las flores. </p>
 <div class="chatbox">
-<div class="message party-message">
-<span class="timestamp">[20:12]</span>
-<strong>#zhangHERO:</strong>
-<span>Es el límite.</span>
+<div class="chat-messages">
+<pre><code>
+<span class="message party"><span class="timestamp">[20:12]</span> <span class="username">#zhangHERO:</span> <span class="content">Es el límite.</span></span>
+<span class="message party"><span class="timestamp">[20:12]</span> <span class="username">#zhangHERO:</span> <span class="content">Solo con cuatro no podemos mucho más ir avance.</span></span>
+<span class="message party"><span class="timestamp">[20:12]</span> <span class="username">#Won_Lei:</span> <span class="content">Sí.</span></span>
+<span class="message party"><span class="timestamp">[20:12]</span> <span class="username">#Won_Lei:</span> <span class="content">Mejor volver.</span></span>
+<span class="message party"><span class="timestamp">[20:12]</span> <span class="username">#chenMeng:</span> <span class="content">Igual, pequeño y viejo, de vuelta a casa.</span></span>
+<span class="message party"><span class="timestamp">[20:12]</span> <span class="username">#zhangHERO:</span> <span class="content">Más que fin de semana, en un mes será posible.</span></span>
+<span class="message party"><span class="timestamp">[20:12]</span> <span class="username">#Robinson:</span> <span class="content">Chen Meng!</span></span>
+<span class="message party"><span class="timestamp">[20:12]</span> <span class="username">#Won_Lei:</span> <span class="content">Espero no sea incordio con chenHERO.</span></span>
+<span class="message party"><span class="timestamp">[20:12]</span> <span class="username">#zhangHERO:</span> <span class="content">Yo también creo que un límite no es problema.</span></span>
+<span class="message party"><span class="timestamp">[20:12]</span> <span class="username">#Robinson:</span> <span class="content">¿Qué dijiste?</span></span>
+<span class="message party"><span class="timestamp">[20:12]</span> <span class="username">#chenMeng:</span> <span class="content">¿Qué cosa?</span></span>
+<span class="message party"><span class="timestamp">[20:12]</span> <span class="username">#Robinson:</span> <span class="content">Pequeño y viejo, de vuelta a casa.</span></span>
+<span class="message party"><span class="timestamp">[20:12]</span> <span class="username">#chenMeng:</span> <span class="content">Correcto.</span></span>
+<span class="message party"><span class="timestamp">[20:12]</span> <span class="username">#Robinson:</span> <span class="content">Qué significa eso?</span></span>
+<span class="message party"><span class="timestamp">[20:12]</span> <span class="username">#chenMeng:</span> <span class="content">Ese es poema de He Zhizhang.</span></span>
+<span class="message party"><span class="timestamp">[20:12]</span> <span class="username">#Robinson:</span> <span class="content">Pero qué significa ese verso?</span></span>
+<span class="message party"><span class="timestamp">[20:12]</span> <span class="username">#chenMeng:</span> <span class="content">Ese poema es muy bello.</span></span>
+<span class="message party"><span class="timestamp">[20:13]</span> <span class="username">#chenMeng:</span> <span class="content">He Zhizhang es poeta muy famoso.</span></span>
+<span class="message party"><span class="timestamp">[20:13]</span> <span class="username">#chenMeng:</span> <span class="content">Sin embargo, no hay muchos poemas transmitidos.</span></span>
+<span class="message party"><span class="timestamp">[20:13]</span> <span class="username">#chenMeng:</span> <span class="content">Solo 20 de ellos están incluidos en la "Poesía de Tang completa".</span></span>
+<span class="message party"><span class="timestamp">[20:13]</span> <span class="username">#chenMeng:</span> <span class="content">Los famosos incluyen "Shu Liu" y "Libros de origen devueltos".</span></span>
+<span class="message party"><span class="timestamp">[20:13]</span> <span class="username">#Robinson:</span> <span class="content">Pero qué significa ese verso?</span></span>
+<span class="message party"><span class="timestamp">[20:13]</span> <span class="username">#chenMeng:</span> <span class="content">¿Pequeño y viejo, de vuelta a casa?</span></span>
+<span class="message party"><span class="timestamp">[20:13]</span> <span class="username">#Robinson:</span> <span class="content">Sí, sí.</span></span>
+<span class="message party"><span class="timestamp">[20:13]</span> <span class="username">#chenMeng:</span> <span class="content">Ah, poesía de dinastía Tang es muy díficil.</span></span>
+<span class="message party"><span class="timestamp">[20:13]</span> <span class="username">#chenMeng:</span> <span class="content">Yo no conozco, perdón.</span></span>
+</code></pre>
 </div>
-<div class="message party-message">
-<span class="timestamp">[20:12]</span>
-<strong>#zhangHERO:</strong>
-<span>Solo con cuatro no podemos mucho más ir avance.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:12]</span>
-<strong>#Won_Lei:</strong>
-<span>Sí.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:12]</span>
-<strong>#Won_Lei:</strong>
-<span>Mejor volver.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:12]</span>
-<strong>#chenMeng:</strong>
-<span>Igual, pequeño y viejo, de vuelta a casa.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:12]</span>
-<strong>#zhangHERO:</strong>
-<span>Más que fin de semana, en un mes será posible.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:12]</span>
-<strong>#Robinson:</strong>
-<span>Chen Meng!</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:12]</span>
-<strong>#Won_Lei:</strong>
-<span>Espero no sea incordio con chenHERO.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:12]</span>
-<strong>#zhangHERO:</strong>
-<span>Yo también creo que un límite no es problema.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:12]</span>
-<strong>#Robinson:</strong>
-<span>¿Qué dijiste?</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:12]</span>
-<strong>#chenMeng:</strong>
-<span>¿Qué cosa?</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:12]</span>
-<strong>#Robinson:</strong>
-<span>Pequeño y viejo, de vuelta a casa.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:12]</span>
-<strong>#chenMeng:</strong>
-<span>Correcto.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:12]</span>
-<strong>#Robinson:</strong>
-<span>Qué significa eso?</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:12]</span>
-<strong>#chenMeng:</strong>
-<span>Ese es poema de He Zhizhang.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:12]</span>
-<strong>#Robinson:</strong>
-<span>Pero qué significa ese verso?</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:12]</span>
-<strong>#chenMeng:</strong>
-<span>Ese poema es muy bello.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:13]</span>
-<strong>#chenMeng:</strong>
-<span>He Zhizhang es poeta muy famoso.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:13]</span>
-<strong>#chenMeng:</strong>
-<span>Sin embargo, no hay muchos poemas transmitidos.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:13]</span>
-<strong>#chenMeng:</strong>
-<span>Solo 20 de ellos están incluidos en la "Poesía de Tang completa".</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:13]</span>
-<strong>#chenMeng:</strong>
-<span>Los famosos incluyen "Shu Liu" y "Libros de origen devueltos".</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:13]</span>
-<strong>#Robinson:</strong>
-<span>Pero qué significa ese verso?</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:13]</span>
-<strong>#chenMeng:</strong>
-<span>¿Pequeño y viejo, de vuelta a casa?</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:13]</span>
-<strong>#Robinson:</strong>
-<span>Sí, sí.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:13]</span>
-<strong>#chenMeng:</strong>
-<span>Ah, poesía de dinastía Tang es muy díficil.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:13]</span>
-<strong>#chenMeng:</strong>
-<span>Yo no conozco, perdón.</span>
+<div class="chat-input">
+<input type="text" placeholder="Type your message...">
 </div>
 </div>
 
 <p>Que algún programa pudiera predecir qué contenido mostrarme y que esta elección me tomara por sorpresa era algo que, incluso en ese momento, podía atribuir a mi propia ingenuidad. Pero chenMeng había utilizado la misma frase que debía yo traducir. En ese momento no pude distinguir si había sido casualidad o si era una frase muy común en China. Pensaba en eso cuando Won Lei sabiendo que estábamos ya lejos de cualquier ciudad y otros jugadores interrumpió:</p>
 <div class="chatbox">
-<div class="message party-message">
-<span class="timestamp">[20:14]</span>
-<strong>#Won_Lei:</strong>
-<span>Si hable fuera de personaje y olvido, agradecería.</span>
+<div class="chat-messages">
+<pre><code>
+<span class="message party"><span class="timestamp">[20:14]</span> <span class="username">#Won_Lei:</span> <span class="content">Si hable fuera de personaje y olvido, agradecería.</span></span>
+</code></pre>
+</div>
+<div class="chat-input">
+<input type="text" placeholder="Type your message...">
 </div>
 </div>
 
 <p>Aunque hacía rato que conocía que el clan Xīngguāng era de rol, aún seguía sin entender muy bien qué era todo aquello.</p>
 <div class="chatbox">
-<div class="message party-message">
-<span class="timestamp">[20:15]</span>
-<strong>#zhangHERO:</strong>
-<span>Realidad son acciones y conversaciones de Won_Lei.</span>
+<div class="chat-messages">
+<pre><code>
+<span class="message party"><span class="timestamp">[20:15]</span> <span class="username">#zhangHERO:</span> <span class="content">Realidad son acciones y conversaciones de Won_Lei.</span></span>
+<span class="message party"><span class="timestamp">[20:15]</span> <span class="username">#chenMeng:</span> <span class="content">Solo un gran camina llanuras</span></span>
+<span class="message party"><span class="timestamp">[20:15]</span> <span class="username">#zhangHERO:</span> <span class="content">no hay persona o jugador.</span></span>
+<span class="message party"><span class="timestamp">[20:15]</span> <span class="username">#zhangHERO:</span> <span class="content">Todo con personalidad y forma de juego.</span></span>
+<span class="message party"><span class="timestamp">[20:15]</span> <span class="username">#zhangHERO:</span> <span class="content">Tendremos que decir al jefe de familia, eso sí.</span></span>
+<span class="message party"><span class="timestamp">[20:15]</span> <span class="username">#zhangHERO:</span> <span class="content">Que Won_Lei es persona de habilidad.</span></span>
+<span class="message party"><span class="timestamp">[20:15]</span> <span class="username">#zhangHERO:</span> <span class="content">PRODIGIO.</span></span>
+<span class="message party"><span class="timestamp">[20:15]</span> <span class="username">#Won_Lei:</span> <span class="content">Agradezco nuevos amigos.</span></span>
+</code></pre>
 </div>
-<div class="message party-message">
-<span class="timestamp">[20:15]</span>
-<strong>#chenMeng:</strong>
-<span>Solo un gran camina llanuras</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:15]</span>
-<strong>#zhangHERO:</strong>
-<span>no hay persona o jugador.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:15]</span>
-<strong>#zhangHERO:</strong>
-<span>Todo con personalidad y forma de juego.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:15]</span>
-<strong>#zhangHERO:</strong>
-<span>Tendremos que decir al jefe de familia, eso sí.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:15]</span>
-<strong>#zhangHERO:</strong>
-<span>Que Won_Lei es persona de habilidad.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:15]</span>
-<strong>#zhangHERO:</strong>
-<span>PRODIGIO.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:15]</span>
-<strong>#Won_Lei:</strong>
-<span>Agradezco nuevos amigos.</span>
+<div class="chat-input">
+<input type="text" placeholder="Type your message...">
 </div>
 </div>
 
 <p>Entre la diferencia idiomática real y la distancia que imponía la traducción con lo realmente dicho a veces me sentía completamente fuera de las conversaciones.</p>
 <div class="chatbox">
-<div class="message private-message">
-<span class="timestamp">[20:15]</span>
-<strong>Robinson->Won_Lei:</strong>
-<span>Está todo bien?</span>
+<div class="chat-messages">
+<pre><code>
+<span class="message private"><span class="timestamp">[20:15]</span> <span class="username">Robinson->Won_Lei:</span> <span class="content">Está todo bien?</span></span>
+</code></pre>
+</div>
+<div class="chat-input">
+<input type="text" placeholder="Type your message...">
 </div>
 </div>
 
 <p>Recordé aquella vez, la primera, que con Won Lei esperábamos la emboscada de los Osos Pardos.</p>
 <div class="chatbox">
-<div class="message party-message">
-<span class="timestamp">[20:15]</span>
-<strong>#Won_Lei:</strong>
-<span>Queda un minuto.</span>
+<div class="chat-messages">
+<pre><code>
+<span class="message party"><span class="timestamp">[20:15]</span> <span class="username">#Won_Lei:</span> <span class="content">Queda un minuto.</span></span>
+<span class="message party"><span class="timestamp">[20:15]</span> <span class="username">#Won_Lei:</span> <span class="content">Con nuevo aprendizaje y un amigo por Orco</span></span>
+<span class="message party"><span class="timestamp">[20:15]</span> <span class="username">#Won_Lei:</span> <span class="content">no importa mientras cinco minutos menos</span></span>
+<span class="message party"><span class="timestamp">[20:15]</span> <span class="username">#Won_Lei:</span> <span class="content">podemos limpiar un grupo y daño igual a cero.</span></span>
+</code></pre>
 </div>
-<div class="message party-message">
-<span class="timestamp">[20:15]</span>
-<strong>#Won_Lei:</strong>
-<span>Con nuevo aprendizaje y un amigo por Orco</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:15]</span>
-<strong>#Won_Lei:</strong>
-<span>no importa mientras cinco minutos menos</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:15]</span>
-<strong>#Won_Lei:</strong>
-<span>podemos limpiar un grupo y daño igual a cero.</span>
+<div class="chat-input">
+<input type="text" placeholder="Type your message...">
 </div>
 </div>
 
 <p>Aunque la situación ameritaba cierto paralelo, era completamente distinta:</p>
 <div class="chatbox">
-<div class="message party-message">
-<span class="timestamp">[20:15]</span>
-<strong>#Won_Lei:</strong>
-<span>Y 16.</span>
+<div class="chat-messages">
+<pre><code>
+<span class="message party"><span class="timestamp">[20:15]</span> <span class="username">#Won_Lei:</span> <span class="content">Y 16.</span></span>
+<span class="message party"><span class="timestamp">[20:15]</span> <span class="username">#zhangHERO:</span> <span class="content">Queda nada.</span></span>
+<span class="message party"><span class="timestamp">[20:16]</span> <span class="username">#chenMeng:</span> <span class="content">Ahora.</span></span>
+</code></pre>
 </div>
-<div class="message party-message">
-<span class="timestamp">[20:15]</span>
-<strong>#zhangHERO:</strong>
-<span>Queda nada.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[20:16]</span>
-<strong>#chenMeng:</strong>
-<span>Ahora.</span>
+<div class="chat-input">
+<input type="text" placeholder="Type your message...">
 </div>
 </div>
 

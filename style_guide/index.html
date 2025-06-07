@@ -39,7 +39,9 @@
       
     
     
-      <link rel="stylesheet" href="../styles/novel.css">
+      <link rel="stylesheet" href="../styles/main.css">
+    
+      <link rel="stylesheet" href="../styles/chat.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -496,45 +498,20 @@
 <h1 id="guia-de-estilo">Guía de Estilo</h1>
 <p>Chat dentro de Z ][</p>
 <div class="chatbox">
-<div class="message alliance-message">
-<span class="timestamp">[12:34]</span>
-<strong>$PlayerX:</strong>
-<span>This is an Alliance Chat</span>
+<div class="chat-messages">
+<pre><code>
+<span class="message alliance"><span class="timestamp">[12:34]</span> <span class="username">$PlayerX:</span> <span class="content">This is an Alliance Chat</span></span>
+<span class="message party"><span class="timestamp">[12:35]</span> <span class="username">#User1:</span> <span class="content">Hey everyone, how’s it going?</span></span>
+<span class="message private"><span class="timestamp">[12:36]</span> <span class="username">Robinson->User2:</span> <span class="content">Got a moment? Let's chat.</span></span>
+<span class="message private"><span class="timestamp">[12:36]</span> <span class="username">User2->Robinson:</span> <span class="content">Yeah. I'm Free.</span></span>
+<span class="message party"><span class="timestamp">[12:37]</span> <span class="username">#User1:</span> <span class="content">Ready for the dungeon run!</span></span>
+<span class="message clan"><span class="timestamp">[12:38]</span> <span class="username">@User3:</span> <span class="content">Don’t forget the raid tomorrow!</span></span>
+<span class="message shout"><span class="timestamp">[12:39]</span> <span class="username">!User4:</span> <span class="content">Huge boss in the west fields, everyone come!</span></span>
+<span class="message trade"><span class="timestamp">[12:40]</span> <span class="username">+User5:</span> <span class="content">Selling rare items, PM for details!</span></span>
+</code></pre>
 </div>
-<div class="message party-message">
-<span class="timestamp">[12:35]</span>
-<strong>#User1:</strong>
-<span>Hey everyone, how’s it going?</span>
-</div>
-<div class="message private-message">
-<span class="timestamp">[12:36]</span>
-<strong>Robinson->User2:</strong>
-<span>Got a moment? Let's chat.</span>
-</div>
-<div class="message private-message">
-<span class="timestamp">[12:36]</span>
-<strong>User2->Robinson:</strong>
-<span>Yeah. I'm Free.</span>
-</div>
-<div class="message party-message">
-<span class="timestamp">[12:37]</span>
-<strong>#User1:</strong>
-<span>Ready for the dungeon run!</span>
-</div>
-<div class="message clan-message">
-<span class="timestamp">[12:38]</span>
-<strong>@User3:</strong>
-<span>Don’t forget the raid tomorrow!</span>
-</div>
-<div class="message shout-message">
-<span class="timestamp">[12:39]</span>
-<strong>!User4:</strong>
-<span>Huge boss in the west fields, everyone come!</span>
-</div>
-<div class="message trade-message">
-<span class="timestamp">[12:40]</span>
-<strong>+User5:</strong>
-<span>Selling rare items, PM for details!</span>
+<div class="chat-input">
+<input type="text" placeholder="Type your message...">
 </div>
 </div>
 

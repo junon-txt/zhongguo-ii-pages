@@ -1,0 +1,49 @@
+.md-content {
+    max-width: 1600px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+.md-grid {
+    max-width: 1600px; 
+}
+
+.md-nav {
+    max-width: 144px;
+}
+
+.md-header {
+    background-color: #4A4A4A;
+    position: absolute;
+    display: none;
+}
+
+.md-sidebar--secondary {
+    display: none;
+}
+
+.md-typeset {
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: normal;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+pre code {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}

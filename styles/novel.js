@@ -95,3 +95,27 @@ document.addEventListener("DOMContentLoaded", function () {
         block.parentNode.replaceWith(chatbox);
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const chatboxes = document.querySelectorAll('.chatbox');
+    
+    chatboxes.forEach(chatbox => {
+        const messages = chatbox.querySelector('.chat-messages');
+        if (!messages) return;
+        const scrollElements = document.createElement('div');
+        scrollElements.className = 'scroll-elements';
+
+        const indicator = document.createElement('div');
+        indicator.className = 'scroll-element';
+        indicator.innerHTML = `<span class="dots">•••</span>`;
+        scrollElements.appendChild(indicator);
+        
+        chatbox.appendChild(scrollElements);
+        const updateScrollIndicator = () => {
+            const isAtBottom = messages.scrollHeight - messages.scrollTop <= messages.clientHeight + (messages.scrollHeight * 0.4);
+            chatbox.classList.toggle('scrolled-not-bottom', !isAtBottom);
+        };
+        messages.addEventListener('scroll', updateScrollIndicator);
+        updateScrollIndicator();
+    });
+});
